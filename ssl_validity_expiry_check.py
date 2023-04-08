@@ -14,3 +14,4 @@ def check_ssl_validity(url):
 url = "www.suneratech.com:443"
 expires, remaining_days = check_ssl_validity(url)
 print(f"The SSL certificate for {url} expires on {expires} and has {remaining_days} days remaining.")
+print("Enjoy your day")
